@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <!-- ------------fonts------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <!-- ----style----- -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <br> <span class="auto-type"></span></h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <img src="copy.png" onclick="copypassword()" alt="">
+        </div>
+        <button onclick ="createPassword()"><img src="generate.png" alt="">Generate Password</button>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> 
+    <script src="index.js"></script>
+</body>
+</html>
